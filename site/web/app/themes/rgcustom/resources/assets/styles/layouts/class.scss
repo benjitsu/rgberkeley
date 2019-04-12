@@ -1,0 +1,35 @@
+#classHero {
+  .jumbotron {
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/bg5.jpg");
+  }
+}
+
+.classContent {
+  h1 {
+    background-color: red;
+    color: white;
+    font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-style: italic;
+    padding: 5px 20px;
+    font-size: 3rem;
+    top: -30px;
+    left: 30px;
+  }
+
+  h2 {
+    font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    margin: 0 0 1rem 0;
+    font-size: 1.6rem;
+  }
+
+  .description {
+    margin: 100px 0;
+  }
+}

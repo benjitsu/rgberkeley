@@ -1,0 +1,10 @@
+/** Import Bootstrap functions */
+@import "~bootstrap/scss/functions";
+
+$theme-colors: (
+  primary: #525ddc
+);
+
+$dark: #1b1b1b;
+
+/** Bootstrap navbar fix (https://git.io/fADqW) */

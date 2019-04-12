@@ -1,0 +1,41 @@
+#capture {
+  padding-bottom: 7rem;
+
+  .box {
+    background-color: red;
+    padding: 0 3rem;
+
+    .headline {
+      color: white;
+      font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 30px;
+      font-style: italic;
+      padding: 20px 0;
+      display: inline-block;
+    }
+
+    .cform {
+      input::placeholder {
+        font-size: 14px;
+        color: grey;
+      }
+
+      input {
+        width: 100%;
+        padding: 7px 10px;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      input[type="submit"] {
+        border: none;
+      }
+
+      input[type="submit"] {
+        font-weight: 800;
+        cursor: pointer;
+      }
+    }
+  }
+}
